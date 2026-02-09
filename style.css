@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5f2ec;
+    color: #2c2c2c;
+}
+
+/* Trinity Image */
+.trinity {
+    text-align: center;
+    padding: 20px;
+}
+
+.trinity img {
+    max-width: 300px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+/* Navigation */
+nav {
+    background-color: #e6dfd1;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.welcome h1 {
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Reel */
+.reel {
+    margin-top: 50px;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4a5a4a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.am {
+    margin: 1%;
+    background-color: rgb(224, 228, 164);
+}
+.raga-choice {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.raga-card {
+    text-decoration: none;
+    color: #2c2c2c;
+    background-color: #e6dfd1;
+    padding: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.raga-card:hover {
+    transform: scale(1.05);
+}
+.melakarta-list {
+    list-style-type: decimal;
+    font-family: "Georgia", serif;
+}
+
+.melakarta-list li {
+    padding: 6px 0;
+    border-bottom: 1px dotted #c5c0b6;
+}
+.melakarta-list,.janya-list {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 0;
+    list-style-position: inside;
+    font-size: 18px;
+    line-height: 2;
+}
