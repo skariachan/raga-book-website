@@ -123,3 +123,41 @@ footer a:hover {
     font-size: 18px;
     line-height: 2;
 }
+.raga-structure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+/* Left text block */
+.raga-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Right image block */
+.raga-keyboard {
+    flex: 1;
+    text-align: center;
+}
+
+.raga-keyboard img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+    margin-top: 8px;
+}
+@media (max-width: 768px) {
+    .raga-structure {
+        flex-direction: column;
+        text-align: center;
+    }
+}
