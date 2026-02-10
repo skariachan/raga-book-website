@@ -106,16 +106,7 @@ footer a:hover {
 .raga-card:hover {
     transform: scale(1.05);
 }
-.melakarta-list {
-    list-style-type: decimal;
-    font-family: "Georgia", serif;
-}
-
-.melakarta-list li {
-    padding: 6px 0;
-    border-bottom: 1px dotted #c5c0b6;
-}
-.melakarta-list,.janya-list {
+.janya-list {
     max-width: 700px;
     margin: 50px auto;
     padding: 0;
@@ -160,4 +151,16 @@ footer a:hover {
         flex-direction: column;
         text-align: center;
     }
+}
+.Mela{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th,td{
+    padding 12px;
+    border: 1px solid #ddd;
+}
+tr{
+    border-bottom: 1px solid #e0e0e0 ;
 }
