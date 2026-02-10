@@ -167,7 +167,7 @@ tr{
 }
 /* green border*/
 .pm{
-    border-left: 5px solid #0ee3ff;
+    border-style: dotted;
 }
 .info{
     text-align: center;
