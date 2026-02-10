@@ -155,12 +155,19 @@ footer a:hover {
 .Mela{
     border-collapse: collapse;
     width: 100%;
+    
 
 }
 th,td{
-    padding 12px;
-    border: 1px solid #ddd;
+    padding: 0px;
+    border: 5px solid #000;
 }
 tr{
-    border-bottom: 1px solid #e0e0e0 ;
+    border-bottom: 1px solid #000 ;
+}
+.pm{
+    border-left: 5px solid #0ee3ff;
+}
+.info{
+    text-align: center;
 }
